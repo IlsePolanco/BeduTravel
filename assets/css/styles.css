@@ -27,7 +27,7 @@ nav a{
 }
 
 nav>div>a:hover {
-    color: red;
+    color: turquoise;
 }
 
 .container-title-subtitle p:first-child{
