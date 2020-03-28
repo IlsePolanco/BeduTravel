@@ -1,0 +1,21 @@
+nav{
+    background-color: lighten($color: $navColor, $amount: 5%);
+    height: 30px;
+    width: $fullSize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+nav>div>a:hover {
+    color: turquoise;
+}
